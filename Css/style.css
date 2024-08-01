@@ -646,4 +646,32 @@ footer .copy-write p{
     font-weight: bold;
     text-align: center;
 }
+
+
+@media (min-width:319px){
+    footer .container{
+        width: 300px;
+        margin: auto;
+    }
+}   
+/* small screen */
+@media (min-width:768px){
+    footer .container{
+        width: 750px;
+        margin: auto;
+    }
+}   
+/* medium screen */
+@media (min-width:992px){
+    footer .container{
+        width: 970px;
+        margin: auto;
+    }
+}
+/* large screen */
+@media (min-width:1200px){
+    footer .container{
+        width: 1170px;
+    }
+}
 /* End footer styles */
